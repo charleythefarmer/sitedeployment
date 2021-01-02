@@ -1,0 +1,89 @@
+body {
+
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+center {
+  display: inline-grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30px 35px 40px 700px 200px 200px 200px;
+  grid-column-gap: 50px;
+  grid-row-gap: 10px;
+}
+
+
+
+
+img[src="Photos/Person_holding_trombone"] {
+  width: max-width;
+  height: auto;
+}
+div {
+  display: inline;
+}
+.top-bit {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  align-self: start;
+  color: white;
+  background: black;
+}
+.search-bar {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  width: 1500px;
+  border-style: groove;
+}
+.Menu-bar {
+  grid-row: 3 / span 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 0px;
+  background-color: mediumspringgreen;
+}
+.Menu-bar:nth-child(1) {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+.top-picture {
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
+  align-self: stretch;
+  justify-self: stretch;
+  width: auto;
+}
+.three-pics {
+  grid-row: 5;
+  grid-column: auto;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.three-pics img {
+  width: 200px;
+  height: 135px;
+}
+.Our-service {
+  grid-column: 1 / span 1;
+  grid-row: 5 / span 1;
+  justify-content: center;
+}
+.Our-service h3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Our-store {
+  grid-column: 1 / span 1;
+  grid-row: 6 / span 1;
+}
+.Our-goals {
+  grid-column: 1 / span 1;
+  grid-row: 7 / span 1;
+}
